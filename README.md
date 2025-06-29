@@ -1,4 +1,4 @@
-# StudySync
+# CollabStudy Hub
 
 A full-stack web application designed to help users collaborate and study together. It features real-time communication, secure user authentication, and cloud-based file storage, making it easy to sync study materials and sessions.
 
