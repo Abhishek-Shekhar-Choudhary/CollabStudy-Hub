@@ -5,11 +5,11 @@ dotenv.config();
 
 
 const sendWelcomeEmail = async (email) => {
-    const subject = '🎉 Welcome to StudySync! 🎓';
+    const subject = '🎉 Welcome to CollabStudy Hub! 🎓';
     const text = `
         Hi there! 👋
 
-        Welcome to StudySync, the best place to connect, collaborate, and boost your learning experience! We're excited to have you join our community.
+        Welcome to CollabStudy Hub, the best place to connect, collaborate, and boost your learning experience! We're excited to have you join our community.
 
         To get started:
         - Create or join study groups
@@ -21,7 +21,7 @@ const sendWelcomeEmail = async (email) => {
         Happy studying! 📚
 
         Best regards,
-        The StudySync Team
+        The CollabStudy Hub Team
     `;
 
     await sendEmail(email, subject, text);
@@ -32,11 +32,11 @@ const sendWelcomeEmail = async (email) => {
 const sendResetPasswordLink = async (email, token) => {
     const resetUrl = `http://localhost:5173/reset-password?token=${token}`;
 
-    const subject = 'StudySync Password Reset Request';
+    const subject = 'CollabStudy Hub Password Reset Request';
     const text = `
         Hello,
 
-        We received a request to reset your password for your StudySync account. 
+        We received a request to reset your password for your CollabStudy Hub account. 
         If you made this request, please reset your password by clicking the link below:
 
         ${resetUrl}
@@ -46,7 +46,7 @@ const sendResetPasswordLink = async (email, token) => {
         This link is valid for a limited time.
 
         Best regards,  
-        The StudySync Team
+        The CollabStudy Hub Team
     `;
 
     await sendEmail(email, subject, text);
