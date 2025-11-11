@@ -67,7 +67,7 @@ const LoginPageNew = () => {
     return (
         <AuthFlexContainer>
             <StudySyncText></StudySyncText>
-            <Heading mb="4" textAlign='center'>Log in to your study sync account</Heading>
+            <Heading mb="4" textAlign='center'>Log in to your CollabStudy Hub account</Heading>
 
             <VStack as="form" spacing="4" onSubmit={handleSubmit}>
 

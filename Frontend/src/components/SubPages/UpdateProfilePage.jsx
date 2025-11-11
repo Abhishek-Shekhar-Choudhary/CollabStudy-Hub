@@ -123,7 +123,7 @@ const UpdateProfilePage = () => {
 
     return (
         <AuthFlexContainer>
-            <Heading mb="4" textAlign='center'>Study Sync</Heading>
+            <Heading mb="4" textAlign='center'>CollabStudy Hub</Heading>
             <Heading mb="4" textAlign='center'>Update your profile</Heading>
 
             <VStack as="form" spacing="4" onSubmit={handleSubmit}>

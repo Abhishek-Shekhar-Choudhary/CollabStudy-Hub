@@ -70,7 +70,7 @@ const RegistrationPageNew = () => {
 
     return (
         <AuthFlexContainer>
-            <Heading mb="4" textAlign='center'>Create your Study Sync account</Heading>
+            <Heading mb="4" textAlign='center'>Create your CollabStudy Hub account</Heading>
 
             <VStack as="form" spacing="4" onSubmit={handleSubmit}>
 

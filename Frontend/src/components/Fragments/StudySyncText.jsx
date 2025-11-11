@@ -11,7 +11,7 @@ const StudySyncText = () => {
         bgClip="text"
         textAlign='center'
     >
-      Study Sync
+      Collab Study Hub
     </Text>
   );
 };
